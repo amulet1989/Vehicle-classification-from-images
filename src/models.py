@@ -40,6 +40,7 @@ def create_mlp_model(input_shape: Tuple[int, int, int], num_classes: int) -> Seq
     # followed by a relu activation function
     # TODO
     model.add(...)
+    model.add(...)
 
     # Layer 3: Fully connected layer with 1024 neurons,
     # followed by a relu activation function
