@@ -39,23 +39,23 @@ def create_mlp_model(input_shape: Tuple[int, int, int], num_classes: int) -> Seq
     # Layer 2: Fully connected layer with 512 neurons,
     # followed by a relu activation function
     # TODO
-    model.add(...)
-    model.add(...)
+    model.add(Dense(512, activation="relu"))
+    model.add(Dense(512, activation="relu"))
 
     # Layer 3: Fully connected layer with 1024 neurons,
     # followed by a relu activation function
     # TODO
-    model.add(...)
+    model.add(Dense(1024, activation="relu"))
 
     # Layer 4: Fully connected layer with 512 neurons,
     # followed by a relu activation function
     # TODO
-    model.add(...)
+    model.add(Dense(512, activation="relu"))
 
     # Layer 5: Classification layer with num_classes output units,
     # followed by a softmax activation function
     # TODO
-    model.add(...)
+    model.add(Dense(num_classes, activation="softmax"))
 
     # Print a summary of the model architecture
     print(model.summary())
