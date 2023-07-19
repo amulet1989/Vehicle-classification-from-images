@@ -1,5 +1,4 @@
-# Sprint Project 04
-> Vehicle classification from images
+# Vehicle classification from images
 
 ## The Business problem
 
